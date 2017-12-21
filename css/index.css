@@ -8,6 +8,7 @@ body,div{
     height: 300px;
     border: 1px solid #eee;
     border-radius: 3px;
+	background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.51);
     margin: 100px auto;
     position: relative;
@@ -16,7 +17,7 @@ body,div{
 .circle{
     width: 70px;
     height: 70px;
-    border: 2px solid #ff778d;
+    border: 2px solid #ff5698;
     border-left: 2px solid transparent;
     border-radius: 50%;
     position: absolute;
@@ -39,9 +40,9 @@ body,div{
 .pie_out{
     width: 0;
     height: 0;
-    border: 26px solid #ff778d;
-    border-top: 26px solid #ffbff3;
-    border-right: 26px solid #ffbff3;
+    border: 26px solid #ff5698;
+    border-top: 26px solid #ff86ba;
+    border-right: 26px solid #ff86ba;
     border-radius: 50%;
     position: absolute;
     top: 0;
@@ -54,7 +55,7 @@ body,div{
 .pie_in_red{
     height: 0;
     width: 0;
-    border: 26px solid #ff778d;
+    border: 26px solid #ff5698;
     border-top: 26px solid transparent;
     border-right: 26px solid transparent;
     border-radius: 50%;
@@ -86,7 +87,7 @@ body,div{
 .pie_in_pink{
     height:0;
     width: 0;
-    border: 26px solid #ffbff3;
+    border: 26px solid #ff86ba;
     border-top: 26px solid transparent;
     border-right: 26px solid transparent;
     border-radius: 50%;
